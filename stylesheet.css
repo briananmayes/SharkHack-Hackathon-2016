@@ -1,0 +1,195 @@
+body {
+	background-color: black;
+	color: lavender;
+	height: 50vh;
+}
+
+p {
+	color: black;
+}
+
+div {
+	padding: 0;
+	text-align: center;
+	color: lavender;
+}
+
+.child.left{
+	display: block;
+	text-align: left;
+}
+
+.container {
+	margin: 2.5vh 0;
+}
+
+.credentials {
+	display: inline-block;
+	text-align: center;
+	text-transform: capitalize;
+	margin: 2% 4%;
+	width: 9vw;
+	height: 10vh;
+}
+
+.credentials h4 {
+	font-weight: 700;
+}
+
+
+.screenshots {
+	width: 24%;
+	height: 70vh;
+	background-color: #f5fff5;
+	border: 2px solid #bdf9c0;
+	margin: auto;
+	margin-top: 15vh;
+	overflow: auto;
+	}
+
+div.screenshots ul {
+	text-align: center;
+	list-style-type: none;
+	margin-top: 10vh;
+	padding: 0;
+}
+
+
+div.screenshots ul li a {
+	display: block;
+	text-decoration: none;
+	color: black;
+}
+
+a {
+	display: block;
+	text-decoration: none;
+}
+
+
+#logo {
+	display: block;
+	margin: auto;
+	width: 100%;
+	height: 30%;
+	padding: 1%;
+
+}
+
+/*profile page*/
+img.profilepic {
+	z-index: 1;
+	float: left;
+	margin: 3vh 5.5vw;
+	clear: right;
+	height: 25%;
+	width: 35%;
+	border: 1px solid black;
+	border-radius: 50%;
+	
+}
+
+p {
+	color: black;
+	font-family: 'Cantarell', sans-serif;
+	font-size: 12px;
+	padding: 0;
+	text-align: center;
+	margin-bottom: 0;
+	font-style: italic;
+}
+
+#progressbar {
+	margin-top: 0;
+	margin-left: 2%;
+	margin-right: 2%;
+	height: .5vh;
+	width: 18vw;
+	border-radius: 9%;
+}
+
+table img {
+	width:100%;
+	height:40px;
+}
+
+table, td {
+	border: 0px #70b8ff dashed;
+}
+
+h1 {
+	font-size: 2.5em;
+	font-weight: 900;
+	color: black;
+	font-family: 'Cagliostro', sans-serif;
+}
+
+h3 {
+	color: black;
+	font-family: 'Cantora One', sans-serif;
+	font-size: 1.5em;
+}
+
+h4 {
+	color: black;
+	font-family: 'Cantarell', sans-serif;
+	margin: 0;
+	padding: 0;
+	font-weight: 700;
+}
+
+#TLIcon {
+	float: left;
+	margin-left: .5vw;
+	margin-top: 1vh;
+	width: 2vw;
+	height: 2vw;
+}
+
+.button {
+	font-family: 'Cantarell', sans-serif;
+	font-size: 1.5em;
+}
+
+ul {
+	margin-top: 2vh;
+}
+
+ul li {
+	padding: 3%;
+}
+
+.button:hover { 
+	color: #42ff4c;
+}
+
+.badge-container {
+	height: 12vh;
+	width: 100%;
+	display: block;
+	text-align: left;
+	margin: .75vh 0;
+}
+
+.badge-container img {
+	float: left;
+	margin-left: .5vw;
+	height: 100%;
+	width: 7vw;
+}
+
+.badge-container p{
+	padding: 0 0 0 .5vw;
+	margin: .5vh 0;
+	clear: none;
+	word-wrap: break-word;
+	float:left;
+}
+
+.badge-container h3 {
+	font-size: .9em;
+	padding: 0 0 0 .5vw;
+	margin: .5vh 0;
+	clear: none;
+	float:left;
+}
